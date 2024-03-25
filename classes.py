@@ -18,7 +18,7 @@ class GenerationError(Exception):
   pass
 
 
-class AI:
+class AI():
     history = NotImplemented
 
     def __init__(self) -> None:
