@@ -20,3 +20,6 @@ def tokenize(text: str, /, *, j: MethodType = ''.join) -> map:
         if category(token) != category(tokens[-1][-1]): tokens += [token],
         else: tokens[-1].append(token)
     return map(j, tokens)
+
+
+__all__ = ['bits', 'scramble', 'tokenize', 'GenerationError', 'AI', 'LLM', 'Cipher']
