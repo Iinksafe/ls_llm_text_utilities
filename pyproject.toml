@@ -1,0 +1,18 @@
+[project]
+name = "example_package_Iinksafe"
+version = "0.0.1"
+authors = [
+  { name="Link S.", email="qdwdre@proton.me" },
+]
+description = "LLM-powered text-based utilities."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: GPLv3 License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Iinksafe/ls_llm_text_utilities"
+Issues = "https://github.com/Iinksafe/ls_llm_text_utilities/issues"
