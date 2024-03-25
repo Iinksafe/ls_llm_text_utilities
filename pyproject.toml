@@ -1,5 +1,5 @@
 [project]
-name = "example_package_Iinksafe"
+name = "example_package_linksafe"
 version = "0.0.1"
 authors = [
   { name="Link S.", email="qdwdre@proton.me" },
